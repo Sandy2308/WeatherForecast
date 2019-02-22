@@ -1,0 +1,49 @@
+﻿
+@{
+    ViewBag.Title = "Login";
+}
+
+<h2>Login</h2>
+<head>
+    <meta charset="utf-8" />
+    <title>Weather Information System </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" type="text/css" href="~/assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="~/assets/css/font-awesome.min.css" />
+    <link rel="stylesheet" type="text/css" href="~/assets/css/styles.css" />
+    <link rel="stylesheet" type="text/css" href="~/assets/css/weather-icons.css" />
+
+    <script type="text/javascript" src="~/assets/js/jquery-1.10.2.min.js"></script>
+    <script type="text/javascript" src="~/assets/js/bootstrap.min.js"></script>
+</head>
+
+
+<div>
+    <input type="text" id="username" name="username" />
+    <input type="password" id="password" name="password" />
+    <input id="btnSave" type="submit" name="Login" value="Login" />
+</div>
+<script>
+
+    $('#btnSave').click(function () {
+        var Data = new Object();
+        Data.username = $('#username').val();
+        Data.password = $('#password').val();
+        var newUrl= '@Url.Action("Index","Home")';
+
+        $.ajax({
+            url: "/Values/LoginSucess",
+            type: "POST",
+            data: JSON.stringify(Data),
+            dataType: "html",
+            traditional: true,
+            contentType: "application/json; charset=utf-8",
+            success: function (data) {
+                //location.reload();
+                window.location.href = newUrl;
+            },
+        });
+    });
+
+</script>

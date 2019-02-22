@@ -1,0 +1,6 @@
+C:\Users\sandipc\Desktop\WeatherForecast\WeatherForecast\bin\WeatherForecast.dll.config
+C:\Users\sandipc\Desktop\WeatherForecast\WeatherForecast\bin\WeatherForecast.dll
+C:\Users\sandipc\Desktop\WeatherForecast\WeatherForecast\bin\WeatherForecast.pdb
+C:\Users\sandipc\Desktop\WeatherForecast\WeatherForecast\obj\Debug\WeatherForecast.csproj.CoreCompileInputs.cache
+C:\Users\sandipc\Desktop\WeatherForecast\WeatherForecast\obj\Debug\WeatherForecast.dll
+C:\Users\sandipc\Desktop\WeatherForecast\WeatherForecast\obj\Debug\WeatherForecast.pdb

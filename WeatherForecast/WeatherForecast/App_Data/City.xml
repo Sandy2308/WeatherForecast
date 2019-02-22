@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Cities>
+  <City>
+    <Name>Gandhi Nagar</Name>
+    <State>Gujrat</State>
+    <MaxTemp>40</MaxTemp>
+    <MinTemp>32</MinTemp>
+  </City>
+  <City>
+    <Name>Ahemdabad</Name>
+    <State>Gujrat</State>
+    <MaxTemp>43</MaxTemp>
+    <MinTemp>34</MinTemp>
+  </City>
+  <City>
+    <Name>Surat</Name>
+    <State>Gujrat</State>
+    <MaxTemp>44</MaxTemp>
+    <MinTemp>31</MinTemp>
+  </City>
+  <City>
+    <Name>Vadodra</Name>
+    <State>Gujrat</State>
+    <MaxTemp>35</MaxTemp>
+    <MinTemp>28.5</MinTemp>
+  </City>
+  <City>
+    <Name>Bhopal</Name>
+    <State>Madhya Pradesh</State>
+    <MaxTemp>43</MaxTemp>
+    <MinTemp>30</MinTemp>
+  </City>
+  <City>
+    <Name>Itarsi</Name>
+    <State>Madhya Pradesh</State>
+    <MaxTemp>42.4</MaxTemp>
+    <MinTemp>30.4</MinTemp>
+  </City>
+  <City>
+    <Name>Gwalior</Name>
+    <State>Madhya Pradesh</State>
+    <MaxTemp>39.8</MaxTemp>
+    <MinTemp>35.5</MinTemp>
+  </City>
+</Cities>

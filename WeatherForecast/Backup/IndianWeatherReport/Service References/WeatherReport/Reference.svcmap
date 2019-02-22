@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="f081173b-7016-476b-a2d0-3024df526841" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:2158/WhetherReport.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="WhetherReport.disco" MetadataType="Disco" ID="0c3b2b2e-a42f-4dfc-b9f4-cdd9690e68fd" SourceId="1" SourceUrl="http://localhost:2158/WhetherReport.svc?disco" />
+    <MetadataFile FileName="WhetherReport.xsd" MetadataType="Schema" ID="cf7ef35b-893b-4655-82ac-2212a27bc7e9" SourceId="1" SourceUrl="http://localhost:2158/WhetherReport.svc?xsd=xsd1" />
+    <MetadataFile FileName="WhetherReport1.xsd" MetadataType="Schema" ID="9b4d4df1-4f64-4129-a2f8-4bc947acf2ff" SourceId="1" SourceUrl="http://localhost:2158/WhetherReport.svc?xsd=xsd2" />
+    <MetadataFile FileName="WhetherReport2.xsd" MetadataType="Schema" ID="f43bdfa4-1b45-47ff-b1ab-970aa06e5a29" SourceId="1" SourceUrl="http://localhost:2158/WhetherReport.svc?xsd=xsd0" />
+    <MetadataFile FileName="WeatherReport.wsdl" MetadataType="Wsdl" ID="03ac183c-7787-4119-a941-cd120ede2bd6" SourceId="1" SourceUrl="http://localhost:2158/WhetherReport.svc?wsdl" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

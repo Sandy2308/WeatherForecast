@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="ccc169c0-0f5b-46c1-81ff-fe4a07a88530" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:2158/WhetherReport.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="WhetherReport.disco" MetadataType="Disco" ID="4c82de10-5a7c-48f4-ae23-9f12db276935" SourceId="1" SourceUrl="http://localhost:2158/WhetherReport.svc?disco" />
+    <MetadataFile FileName="WhetherReport.xsd" MetadataType="Schema" ID="10ce98f7-1fe4-4987-b66e-8a0f1efa5ae3" SourceId="1" SourceUrl="http://localhost:2158/WhetherReport.svc?xsd=xsd0" />
+    <MetadataFile FileName="WhetherReport1.xsd" MetadataType="Schema" ID="58de785e-d52e-4775-b870-08eedee70608" SourceId="1" SourceUrl="http://localhost:2158/WhetherReport.svc?xsd=xsd2" />
+    <MetadataFile FileName="WeatherReport.wsdl" MetadataType="Wsdl" ID="17fa8f1f-7da4-41ba-84fd-73c164f92e4e" SourceId="1" SourceUrl="http://localhost:2158/WhetherReport.svc?wsdl" />
+    <MetadataFile FileName="WhetherReport2.xsd" MetadataType="Schema" ID="ed468ea9-21c7-4b81-9716-60d35ab59e16" SourceId="1" SourceUrl="http://localhost:2158/WhetherReport.svc?xsd=xsd1" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
